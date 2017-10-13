@@ -3,157 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>王安安科技</title>
+    <title>安科技</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="./css/swiper.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/delay.css">
 
     <!-- Demo styles -->
     <style>
-        html,
-        body {
-            position: relative;
-            height: 100%;
-        }
-
-        body {
-            background: #eee;
-            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-            font-size: 14px;
-            color: #000;
-            margin: 0;
-            padding: 0;
-        }
-
-        .swiper-container {
-            width: 100%;
-            height: 100%;
-        }
-
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-
-            /* Center slide text vertically */
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
-        }
-
-        .menu {
-            min-width: 100px;
-            width: 70%;
-            max-width: 320px;
-
-            background-color: #2C8DFB;
-            color: #fff;
-        }
-
-        .content {
-            width: 100%;
-        }
-
-        .menu-button {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-
-            padding: 10px;
-
-            cursor: pointer;
-
-            -webkit-transition: .3s;
-            transition: .3s;
-
-            background-color: #2C8DFB;
-
-            /*margin: 14px;
-			border-radius: 5px;*/
-        }
-
-        .menu-button .bar:nth-of-type(1) {
-            margin-top: 0px;
-        }
-
-        .menu-button .bar:nth-of-type(3) {
-            margin-bottom: 0px;
-        }
-
-        .bar {
-            position: relative;
-            display: block;
-
-            width: 40px;
-            height: 3px;
-
-            margin: 10px auto;
-            background-color: #fff;
-
-            border-radius: 10px;
-
-            -webkit-transition: .3s;
-            transition: .3s;
-        }
-
-        .menu-button:hover .bar:nth-of-type(1) {
-            -webkit-transform: translateY(1.5px) rotate(-4.5deg);
-            -ms-transform: translateY(1.5px) rotate(-4.5deg);
-            transform: translateY(1.5px) rotate(-4.5deg);
-        }
-
-        .menu-button:hover .bar:nth-of-type(2) {
-            opacity: .9;
-        }
-
-        .menu-button:hover .bar:nth-of-type(3) {
-            -webkit-transform: translateY(-1.5px) rotate(4.5deg);
-            -ms-transform: translateY(-1.5px) rotate(4.5deg);
-            transform: translateY(-1.5px) rotate(4.5deg);
-        }
-
-        .cross .bar:nth-of-type(1) {
-            -webkit-transform: translateY(15px) rotate(-45deg);
-            -ms-transform: translateY(15px) rotate(-45deg);
-            transform: translateY(15px) rotate(-45deg);
-        }
-
-        .cross .bar:nth-of-type(2) {
-            opacity: 0;
-        }
-
-        .cross .bar:nth-of-type(3) {
-            -webkit-transform: translateY(-15px) rotate(45deg);
-            -ms-transform: translateY(-15px) rotate(45deg);
-            transform: translateY(-15px) rotate(45deg);
-        }
-
-        .cross:hover .bar:nth-of-type(1) {
-            -webkit-transform: translateY(13.5px) rotate(-40.5deg);
-            -ms-transform: translateY(13.5px) rotate(-40.5deg);
-            transform: translateY(13.5px) rotate(-40.5deg);
-        }
-
-        .cross:hover .bar:nth-of-type(2) {
-            opacity: .1;
-        }
-
-        .cross:hover .bar:nth-of-type(3) {
-            -webkit-transform: translateY(-13.5px) rotate(40.5deg);
-            -ms-transform: translateY(-13.5px) rotate(40.5deg);
-            transform: translateY(-13.5px) rotate(40.5deg);
-        }
     </style>
 </head>
 
@@ -161,18 +19,110 @@
     <!-- Swiper -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide menu">Menu slide</div>
-            <div class="swiper-slide content">
-                <div class="menu-button">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
+            <div class="swiper-slide">
+                <div class="slide-index index-page">
+                    <div class="index-name">
+                        <h1>安科技</h1>
+                        <p>买台新 Mac，时机正好，理由更好。</p>
+                    </div>
+
                 </div>
-                
-                
-                
+            </div>
+            <div class="swiper-slide second-page">
+                <div class="swiper-container-business">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="business">
+                                <img src="" alt="1">
+                                <h3>微信小程序</h3>
+                                <p>微信公众号关联</p>
+                                <p>小程序切换</p>
+                                <p>提供小程序页</p>
+                                <p>搜索查找</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="business">
+                                <img src="" alt="2">
+                                <h3>微信企业号开发</h3>
+                                <p>企业员工管理</p>
+                                <p>企业内部宣传</p>
+                                <p>企业信息安全</p>
+                                <p>公众号关联</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="business">
+                                <img src="" alt="3">
+                                <h3>Web端开发</h3>
+                                <p>Web网站开发</p>
+                                <p>Web商城开发</p>
+                                <p>Web后台开发</p>
+                                <p>H5开发</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="business">
+                                <img src="" alt="4">
+                                <h3>网站推广</h3>
+                                <p>百度推广</p>
+                                <p>微信推广</p>
+                                <p>产品广告</p>
+                                <p>小程序推广</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide third-page">
+                <h1>成熟案例</h1>
+                <div class="swiper-container-succeed">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide forth-page">
+                <h1>合作企业</h1>
+                <div class="swiper-container-cooperation">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide fifth-page">
+                <h1>了解我们</h1>
+                <div class="swiper-container-us">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="sixth-page">
+                <div class="we">
+                    <h1>王安安科技</h1>
+                    <p>科技的追求者，不会被生活打倒</p>
+                    <img src="./images/anan.jpg" alt="1">
+                    <p class="lone">长按扫描二维码</p>
+                </div>
+                </div>
             </div>
         </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
     </div>
 
     <!-- Swiper JS -->
@@ -180,30 +130,45 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var toggleMenu = function () {
-            if (swiper.previousIndex == 0)
-                swiper.slidePrev()
-        }
-            , menuButton = document.getElementsByClassName('menu-button')[0]
-            , swiper = new Swiper('.swiper-container', {
-                slidesPerView: 'auto'
-                , initialSlide: 1
-                , resistanceRatio: .00000000000001
-                , onSlideChangeStart: function (slider) {
-                    if (slider.activeIndex == 0) {
-                        menuButton.classList.add('cross')
-                        menuButton.removeEventListener('click', toggleMenu, false)
-                    } else
-                        menuButton.classList.remove('cross')
-                }
-                , onSlideChangeEnd: function (slider) {
-                    if (slider.activeIndex == 0)
-                        menuButton.removeEventListener('click', toggleMenu, false)
-                    else
-                        menuButton.addEventListener('click', toggleMenu, false)
-                }
-                , slideToClickedSlide: true
-            })
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            mousewheelControl: true,
+            speed: 200,
+        });
+
+        var swiperBusiness = new Swiper('.swiper-container-business', {
+            loop: false,
+            autoplay: 1000,
+            slidesPerView: 'auto',
+            paginationClickable: true,
+            spaceBetween: 30
+        });
+
+        var swiperSucceed = new Swiper('.swiper-container-succeed', {
+            loop: false,
+            autoplay: 1000,
+            slidesPerView: 'auto',
+            paginationClickable: true,
+            spaceBetween: 30
+        });
+
+        var swiperSucceed = new Swiper('.swiper-container-cooperation', {
+            loop: false,
+            autoplay: 1000,
+            slidesPerView: 'auto',
+            paginationClickable: true,
+            spaceBetween: 30
+        });
+
+        var swiperSucceed = new Swiper('.swiper-container-us', {
+            loop: false,
+            autoplay: 1000,
+            slidesPerView: 'auto',
+            paginationClickable: true,
+            spaceBetween: 30
+        });
     </script>
 </body>
 
