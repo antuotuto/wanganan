@@ -97,7 +97,7 @@ p{
 }
 
 .second-page p{
-    font-weight: 100;    
+    font-weight: 400;    
 }
 
 
@@ -241,12 +241,10 @@ p{
     font-size: 15px;
     height:35px;
     color:#fecbc9;
-    font-weight: 300;
 }
 
 .slide-list .list-p{
     font-size: 17px;
-    font-weight: 300;
     height:80px;
 }
 
