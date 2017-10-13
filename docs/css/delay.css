@@ -2,10 +2,10 @@ html,
         body {
             position: relative;
             height: 100%;
+            letter-spacing: 1px;
         }
 
         body {
-            background: #eee;
             font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
             font-size: 14px;
             color: #000;
@@ -21,6 +21,7 @@ html,
         .swiper-slide {
             text-align: center;
             font-size: 18px;
+            position: relative;
 
             /* Center slide text vertically */
             display: -webkit-box;
@@ -38,8 +39,8 @@ html,
         }
 
         .swiper-pagination-bullet {
-            width: 10px;
-            height: 10px;
+            width: 2rem;
+            height: 2rem;
             text-align: center;
             line-height: 20px;
             font-size: 12px;
@@ -50,39 +51,76 @@ html,
 
         .swiper-pagination-bullet-active {
             color: #fff;
-            background: #007aff;
+            background: #fb3e3b;
         }
 
 .slide-index{
     height:100%;
     width:100%;
-    padding: 15px;
-    background: url("../images/indexBackground.png");
-    
-    
+    background-image: url("../images/an.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 58%;
+    background-position: 10vh 6vh;
 }
 
 .index-name{
-    background: #FAFAFA;
-    border-radius: 5px;
-    padding: 50px;
+    padding: 10rem;
+    height:40vh;
+    text-align: left;
 }
 
-.index-example{
-    padding: 50px;
+.index-two-box{
+    height:15vh;
+    width:100%;
+    background: #fb3e3b;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.index-two:first-child{
+    width:50%;
+    height:100%;
+    float: left;
+}
+
+.logo-name{
+    color: #fb3e3b;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-top: 37rem;
+    letter-spacing: 7px;
+}
+
+.logo-border{
+    background-color: #fb3e3b;
+    height: .5rem;
+    width:100px; 
+}
+
+.logo-map{
+    font-weight: bold;
+    margin-top: 10rem;    
+}
+
+.logo-speak{
+        background-color: #fb3e3b;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 23rem;  
+    letter-spacing: 3px;
 }
 
 
 h1{
   margin: 0;
     font-size: 48px;
-    font-weight: 500;  
 }
 
 p{
     font-size: 22px;
     line-height: 1.45455;
-    font-weight: 300;
     letter-spacing: .016em;
     font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
@@ -99,8 +137,6 @@ p{
 .second-page p{
     font-weight: 400;    
 }
-
-
 
 /*  */
 
@@ -129,28 +165,39 @@ p{
 }
 
 /*  */
+.last{
+   background: #ff7d06;  
+    background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  
+    background: linear-gradient(to bottom, #fb3e3b, #ff7d06); 
+}
+
 .sixth-page{
-    height:100%;
     width:100%;
-    background: url("../images/sixthBackground.jpg")
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 5px;
 }
 
-.we{
-    padding: 50px;
-    height:100%;
-    border-radius: 5px;
-    color:#fff;
+.sixth-page p{
+    letter-spacing: 5px;
 }
 
-.we p{
-    margin-top: 15px;
+.sixth-page p:nth-child(1){
+    font-size: 7rem;
+    margin-bottom: 3rem;
+}
+
+.sixth-page p:nth-child(2){
+    font-size: 3rem;
+    margin-bottom: 10rem;
 }
 
 .lone{
-    font-size: 17px;
+    font-size: 2.6rem;
+    margin-top: 11rem;
 }
 
-.we img{
+.sixth-page img{
     width:60vw;
     height:auto;
 }
@@ -176,7 +223,7 @@ p{
 }
 
 .slide-list .swiper-slide {
-    width: 80%;
+    width: 80vw;
 }
 
 .business-box{
@@ -184,13 +231,13 @@ p{
 }
 
 .business{
-    height:160px;
+    height:35rem;
     color: #5d5d5d;
     background-color: #fff;
     width:100%;
-    border-radius: 5px;
+    border-radius: 1rem;
     position: relative;
-    padding: 15px;
+    padding: 5rem;
     text-align: left;
     box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
 }
@@ -201,12 +248,12 @@ p{
 
 .swiper-wrapper .business:first-child:after {
     content: "";
-    width: 16px;
-    height: 16px;
+    width: 3rem;
+    height: 3rem;
     background: linear-gradient(to right, #fb3e3b, #ff7d06);
     position: absolute;
-    bottom: -8px;
-    left:-8px;
+    bottom: -1.5rem;
+    left:-1.5rem;
     z-index: 50;
     border-radius: 50%;
     display: block;
@@ -214,12 +261,12 @@ p{
 
 .swiper-wrapper .business:last-child:after {
     content: "";
-    width: 16px;
-    height: 16px;
-    background: linear-gradient(to right, #fb3e3b, #ff7d06);
+        width: 3rem;
+    height: 3rem;
+    background: linear-gradient(to left, #fb3e3b, #ff7d06);
     position: absolute;
-    top: -8px;
-    right:-8px;
+    top: -1.5rem;
+    right: -1.5rem;
     z-index: 50;
     border-radius: 50%;
     display: block;
@@ -227,25 +274,85 @@ p{
 
 .business h3{
     color:#fb3d3c;
-    font-size: 18px;
+    font-size: 3.5rem;
     margin-top: 10px;
 }
 
-.business p{
-    font-size: 12px;
-    margin-bottom: 5px;
-    padding-left: 5px;
+.business ul{
+    margin-top: 2rem;
+}
+
+.business li{
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    font-weight: 400;
 }
 
 .slide-list .list-title{
-    font-size: 15px;
-    height:35px;
+    font-size: 3.8rem;
+    height:10rem;
     color:#fecbc9;
 }
 
 .slide-list .list-p{
-    font-size: 17px;
-    height:80px;
+    font-size: 2.9rem;
+    height:15rem;
 }
 
 /*  */
+
+/*向下按钮*/
+
+#nextpage {
+    position: fixed;
+    top: 90%;
+    left: 45%;
+    z-index: 3000;
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+
+.arr1 {
+    bottom: 40px;
+}
+
+.arr2 {
+    bottom: 62px;
+}
+
+.noKown {
+    display: none !important;
+}
+
+.arrow {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -11px;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+    z-index: 99;
+    opacity: .8;
+    -webkit-transform: rotate(45deg);
+    -webkit-animation: arrow 1.5s infinite ease-in-out;
+}
+
+@-webkit-keyframes arrow {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(0, 0px) rotate(45deg);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: translate(0, 5px) rotate(45deg);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translate(0, 10px) rotate(45deg);
+    }
+}
