@@ -59,7 +59,7 @@ html,
     width:100%;
     background-image: url("../images/an.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 58%;
+    background-size: 96% 56%;
     background-position: 10vh 6vh;
 }
 
@@ -116,6 +116,7 @@ html,
     margin-top: 23rem;  
     letter-spacing: 3px;
     box-shadow: 0 17px 50px 0 rgba(0,0,0,.29);
+        border-radius: 3px;
     
 }
 

@@ -55,7 +55,7 @@ var swiperBusiness = new Swiper('.swiper-container-business', {
     slidesPerView: 'auto',
     centeredSlides: true,
     paginationClickable: true,
-    spaceBetween: 30
+    spaceBetween: 80
 });
 
 var swiperSucceed = new Swiper('.swiper-container-succeed', {
@@ -63,7 +63,7 @@ var swiperSucceed = new Swiper('.swiper-container-succeed', {
     slidesPerView: 'auto',
     centeredSlides: true,
     paginationClickable: true,
-    spaceBetween: 30
+    spaceBetween: 80
 });
 
 var swiperCooperation = new Swiper('.swiper-container-cooperation', {
@@ -71,7 +71,7 @@ var swiperCooperation = new Swiper('.swiper-container-cooperation', {
     slidesPerView: 'auto',
     centeredSlides: true,
     paginationClickable: true,
-    spaceBetween: 30
+    spaceBetween: 80
 });
 
 var swiperUs = new Swiper('.swiper-container-us', {
@@ -79,5 +79,5 @@ var swiperUs = new Swiper('.swiper-container-us', {
     slidesPerView: 'auto',
     centeredSlides: true,
     paginationClickable: true,
-    spaceBetween: 30
+    spaceBetween: 80
 });
