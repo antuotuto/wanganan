@@ -11,6 +11,7 @@ var swiper = new Swiper('.swiper-container', {
     onSlideChangeEnd: function (swiper) {
         if (swiper.activeIndex == 0) {
             // 第一页开始
+            $('#nextpage').removeClass('noNext')
             $('.sixth-page .animated').removeClass('active')
             $('.second-page .animated').removeClass('active')
             $('.index-page .animated').addClass('active')

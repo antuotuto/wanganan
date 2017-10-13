@@ -258,6 +258,18 @@ p{
     box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
 }
 
+.business img{
+    height: 15rem;
+    width: 15rem;
+}
+
+.swiper-wrapper .business:first-child{
+    display: flex;
+     justify-content: center;
+      align-items: center;
+}
+
+
 .swiper-wrapper .business:last-child{
     background-color:  #f0f0f0;
 }
