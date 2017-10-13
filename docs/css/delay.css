@@ -263,6 +263,20 @@ p{
     width: 15rem;
 }
 
+.swiper-container-succeed .business img{
+        height: 66rem;
+    width: 35rem;
+}
+
+.swiper-container-cooperation .swiper-slide:nth-child(1) .business:nth-child(1) img {
+    height: 15rem;
+    width: 20rem;
+}
+
+.swiper-container-us .business img{
+        border-radius: 50%;
+}
+
 .swiper-wrapper .business:first-child{
     display: flex;
      justify-content: center;
