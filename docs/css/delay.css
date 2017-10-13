@@ -237,13 +237,15 @@ p{
     padding-left: 5px;
 }
 
-.list-title{
-    font-size: 14px;
+.slide-list .list-title{
+    font-size: 15px;
     height:35px;
+    color:#fecbc9;
+    font-weight: 300;
 }
 
 .slide-list .list-p{
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
     height:80px;
 }
