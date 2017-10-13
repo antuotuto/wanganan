@@ -76,6 +76,8 @@ html,
     position: absolute;
     bottom: 0;
     left: 0;
+    box-shadow: 0 -15px 50px 0 rgba(0,0,0,.19);
+    
 }
 
 .index-two:first-child{
@@ -96,6 +98,8 @@ html,
     background-color: #fb3e3b;
     height: .5rem;
     width:100px; 
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
+    
 }
 
 .logo-map{
@@ -106,10 +110,13 @@ html,
 .logo-speak{
         background-color: #fb3e3b;
     color: #fff;
-    padding: 1rem;
+    padding: 1.3rem;
     text-align: center;
+    font-size: 2.4rem;
     margin-top: 23rem;  
     letter-spacing: 3px;
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
+    
 }
 
 
@@ -190,6 +197,11 @@ p{
 .sixth-page p:nth-child(2){
     font-size: 3rem;
     margin-bottom: 10rem;
+        background: #fff;
+    color: #fb3e3b;
+        padding: 2rem;
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
+        
 }
 
 .lone{
@@ -200,6 +212,8 @@ p{
 .sixth-page img{
     width:60vw;
     height:auto;
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
+    
 }
 /*  */
 .slide-list .swiper-slide {
@@ -291,13 +305,16 @@ p{
 
 .slide-list .list-title{
     font-size: 3.8rem;
-    height:10rem;
-    color:#fecbc9;
+    margin-bottom: 7rem;
+    color:#fb3d3c;
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
 }
 
 .slide-list .list-p{
     font-size: 2.9rem;
-    height:15rem;
+    margin-bottom: 7rem;
 }
 
 /*  */
