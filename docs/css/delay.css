@@ -109,7 +109,6 @@ p{
     background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #fb3e3b, #ff7d06); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color:#fff;
-   
 }
 
 /*  */
@@ -119,7 +118,6 @@ p{
     background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #fb3e3b, #ff7d06); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color:#fff;
-   
 }
 
 /*  */
@@ -128,7 +126,6 @@ p{
     background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #fb3e3b, #ff7d06); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color:#fff;
-   
 }
 
 /*  */
@@ -195,6 +192,7 @@ p{
     position: relative;
     padding: 15px;
     text-align: left;
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
 }
 
 .swiper-wrapper .business:last-child{
@@ -205,7 +203,7 @@ p{
     content: "";
     width: 16px;
     height: 16px;
-    background: linear-gradient(to left, #fb3e3b, #ff7d06);
+    background: linear-gradient(to right, #fb3e3b, #ff7d06);
     position: absolute;
     bottom: -8px;
     left:-8px;
@@ -218,7 +216,7 @@ p{
     content: "";
     width: 16px;
     height: 16px;
-    background: #ff7d06;
+    background: linear-gradient(to right, #fb3e3b, #ff7d06);
     position: absolute;
     top: -8px;
     right:-8px;
@@ -237,6 +235,17 @@ p{
     font-size: 12px;
     margin-bottom: 5px;
     padding-left: 5px;
+}
+
+.list-title{
+    font-size: 14px;
+    height:35px;
+}
+
+.slide-list .list-p{
+    font-size: 16px;
+    font-weight: 300;
+    height:80px;
 }
 
 /*  */
