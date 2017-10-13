@@ -90,9 +90,9 @@ p{
 /*  */
 
 .second-page{
-    background: #ff7d06;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #fb3e3b, #ff7d06); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ff7d06;  
+    background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  
+    background: linear-gradient(to bottom, #fb3e3b, #ff7d06); 
     color:#fff;
 }
 
@@ -105,26 +105,26 @@ p{
 /*  */
 
 .third-page{
-   background: #ff7d06;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #fb3e3b, #ff7d06); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #ff7d06;  
+    background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  
+    background: linear-gradient(to bottom, #fb3e3b, #ff7d06); 
     color:#fff;
 }
 
 /*  */
 
 .forth-page{
-   background: #ff7d06;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #fb3e3b, #ff7d06); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #ff7d06;  
+    background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06); 
+    background: linear-gradient(to bottom, #fb3e3b, #ff7d06); 
     color:#fff;
 }
 
 /*  */
 .fifth-page{
-   background: #ff7d06;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #fb3e3b, #ff7d06); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #ff7d06;  
+    background: -webkit-linear-gradient(to bottom, #fb3e3b, #ff7d06);  
+    background: linear-gradient(to bottom, #fb3e3b, #ff7d06); 
     color:#fff;
 }
 
