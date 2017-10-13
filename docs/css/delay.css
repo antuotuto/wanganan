@@ -115,7 +115,7 @@ html,
     font-size: 2.4rem;
     margin-top: 23rem;  
     letter-spacing: 3px;
-    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.29);
     
 }
 
@@ -212,6 +212,7 @@ p{
 .sixth-page img{
     width:60vw;
     height:auto;
+    margin: 0 auto;
     box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
     
 }
@@ -314,7 +315,6 @@ p{
 
 .slide-list .list-p{
     font-size: 2.9rem;
-    margin-bottom: 7rem;
 }
 
 /*  */
@@ -372,4 +372,12 @@ p{
         opacity: 0;
         -webkit-transform: translate(0, 10px) rotate(45deg);
     }
+}
+
+#nextpage.noNext{
+    display: none;
+}
+
+.list-title-box{
+        height: 21vh;
 }

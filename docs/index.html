@@ -9,6 +9,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/delay.css">
     <script>!function () { var e = screen.width / 750; document.getElementById("viewport").content = "width=750,initial-scale=" + e + ",minimum-scale=" + e + ",maximum-scale=" + e + ",user-scalable=no" }()</script>
 
@@ -21,12 +23,12 @@
             <div class="swiper-slide">
                 <div class="slide-index index-page">
                     <div class="index-name">
-                        <p class="logo-name">王安安科技</p>
-                        <div class="logo-border"></div>
-                        <p class="logo-map">北京市朝阳区</p>
-                        <p class="logo-speak">服务于万家医疗行业的互联网公司</p>
+                        <p class="logo-name animated fadeInDown delay_0">王安安科技</p>
+                        <div class="logo-border animated fadeInDown delay_100"></div>
+                        <p class="logo-map animated fadeInDown delay_200">北京市朝阳区</p>
+                        <p class="logo-speak animated fadeInUp delay_200">服务于万家医疗行业的互联网公司</p>
                     </div>
-                    <div class="index-two-box">
+                    <div class="index-two-box  animated fadeInUp delay_100">
                         <div class="index-two">
 
                         </div>
@@ -38,8 +40,10 @@
             </div>
             <div class="swiper-slide second-page">
                 <div class="slide-list">
-                    <p class="list-title">主营业务</p>
-                    <p class="list-p">业务的收费方式具体由业务本身大小来定</p>
+                    <div class="list-title-box">
+                        <p class="list-title animated fadeInDown delay_100">主营业务</p>
+                        <p class="list-p animated fadeInUp delay_200">业务的收费方式具体由业务本身大小来定</p>
+                    </div>
                     <div class="swiper-container-business">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -308,10 +312,10 @@
             </div>
             <div class="swiper-slide last">
                 <div class="sixth-page">
-                    <p>王安安科技</p>
-                    <p>科技的追随者，不会被生活打倒</p>
-                    <img src="./images/anan.jpg" alt="1">
-                    <p class="lone">长按扫描二维码</p>
+                    <p class="animated fadeInDown delay_100">王安安科技</p>
+                    <p class="animated fadeInDown delay_200">科技的追随者，不会被生活打倒</p>
+                    <img src="./images/anan.jpg" alt="" class="animated fadeInUp delay_300">
+                    <p class="lone animated fadeInUp delay_400">长按扫描二维码</p>
                 </div>
             </div>
         </div>
@@ -322,9 +326,10 @@
             <div class="arrow arr2"></div>
         </a>
     </div>
+    <script src="./js/jquery.min.js"></script>
     <script src="./js/swiper.min.js"></script>
     <script src="./js/main.js"></script>
-    
+
 </body>
 
 </html>
